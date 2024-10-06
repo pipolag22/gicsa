@@ -1,5 +1,5 @@
-import "../App.css"; // Asegúrate de importar el CSS
-import images from "../assets/images"; // Importa el array de imágenes correctamente
+import "../App.css";
+import images from "../assets/images";
 
 const InfoSection = () => {
   return (

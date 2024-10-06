@@ -17,29 +17,28 @@ body {
   background-repeat: no-repeat;
 }
 
-/* Estilos responsive para hacer que el banner sea más pequeño en pantallas pequeñas */
 @media only screen and (max-width: 767px) {
   .header-section {
-    height: 40vh; /* Reduce el tamaño del banner */
-    background-size: cover; /* Asegura que la imagen cubra el espacio */
+    height: 40vh;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .header-section h1 {
-    font-size: 1.5rem; /* Ajusta el tamaño de texto para pantallas pequeñas */
+    font-size: 1.5rem;
   }
 
   .header-section p {
-    font-size: 1rem; /* Ajusta el tamaño de texto secundario */
+    font-size: 1rem;
   }
 }
 
-/* Estilos para InfoSection */
+/*  InfoSection */
 .info-section {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap; /* Asegura que los elementos se ajusten */
+  flex-wrap: wrap;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -47,25 +46,24 @@ body {
 
 .info-item {
   text-align: center;
-  flex: 1 1 22%; /* Ajuste en pantallas grandes para que ocupen menos ancho */
+  flex: 1 1 22%;
   margin: 1rem;
 }
 
 .info-item img {
   width: 100%;
   height: auto;
-  max-width: 250px; /* Limita el tamaño máximo de las imágenes */
+  max-width: 250px;
 }
 
-/* Estilos responsive para móviles */
 @media only screen and (max-width: 767px) {
   .info-section {
-    flex-direction: column; /* Las imágenes se apilan en columna */
-    align-items: center; /* Centramos las imágenes */
+    flex-direction: column;
+    align-items: center;
   }
 
   .info-item {
-    width: 100%; /* Las imágenes ocupan el 100% del ancho en pantallas pequeñas */
+    width: 100%;
     margin-bottom: 1rem;
   }
 
@@ -75,7 +73,6 @@ body {
   }
 }
 
-/* Estilos para tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .info-section {
     flex-direction: row;
@@ -84,13 +81,13 @@ body {
   }
 
   .info-item {
-    width: 45%; /* Ajuste para tablets */
+    width: 45%;
     margin-bottom: 1rem;
   }
 
   .info-item img {
     width: 100%;
     height: auto;
-    max-width: 250px; /* Limita el tamaño máximo en tablets también */
+    max-width: 250px;
   }
 }

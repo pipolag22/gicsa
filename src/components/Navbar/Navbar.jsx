@@ -1,6 +1,6 @@
 import React from "react";
-import "./Navbar.css"; // Asegúrate de tener el archivo CSS para los estilos
-import logo from "../../assets/logo chico.png"; // Importa el logo
+import "./Navbar.css";
+import logo from "../../assets/logo chico.png";
 
 const Navbar = () => {
   return (
