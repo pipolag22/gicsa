@@ -1,0 +1,39 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.header-section,
+.carousel-container,
+.services-section,
+.certifications-section,
+.contact-form-section {
+  width: 100%;
+}
